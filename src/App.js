@@ -103,11 +103,12 @@ const App = () => {
 
   return (
     <div className="App">
+      <br />
       <div style={{ display: 'flex', justifyContent: 'center', height: '50px' }}>
         {currentAccount === "" ? walletNotConnected() : walletConnected()}
         <br />
       </div>
-    </div>
+    </div >
   );
 };
 
